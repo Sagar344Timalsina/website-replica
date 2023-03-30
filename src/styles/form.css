@@ -1,0 +1,100 @@
+.form__card {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  padding: 0 5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.form__card .form__card__top {
+  padding: 1rem 0;
+}
+.form__card .form__card__top .h4__text {
+  font-size: 12px;
+  color: gray;
+  line-height: 18px;
+}
+.form__card .form__card__midinput .input__top {
+  padding: 0 0 1rem 0;
+}
+.form__card .form__card__midinput .input__down {
+  padding: 0 0 1rem 0;
+}
+.form__card .form__card__midinput .checkbox__div {
+  max-width: 100%;
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  padding: 0 0.5rem 0 0.5rem;
+}
+.form__card .form__card__midinput .checkbox__div .remember__me {
+  padding-left: 4px;
+}
+.form__card .form__card__midinput .checkbox__div .forgot__pass {
+  cursor: pointer;
+  padding-left: 4px;
+}
+.form__card .form__card__bottom .btn__signin {
+  margin: 0.5rem 0;
+  cursor: pointer;
+  width: 100%;
+  height: 32px;
+  border: none;
+  border-radius: 5px;
+}
+.form__card .form__card__bottom .btn__signin .sign__google__text {
+  margin-top: 12px;
+}
+.form__card .form__card__bottom .sign__me {
+  text-align: center;
+  color: whitesmoke;
+  background-color: black;
+}
+.form__card .form__card__bottom .sign__google {
+  font-weight: 600;
+  border: 0.25px solid gray;
+  background-color: rgb(255, 255, 255);
+}
+.form__card .form__card__bottom .sign__google .icons {
+  font-size: 1rem;
+}
+.form__card .form__card__bottom .inner__text__account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  font-size: 12px;
+}
+.form__card .form__card__bottom .inner__text__account .sign__account {
+  color: gray;
+}
+.form__card .form__card__bottom .inner__text__account .signUp__free {
+  padding-left: 4px;
+  font-weight: 700;
+}
+
+.input__field {
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(129, 127, 127, 0.2) 0px 2px 8px 0px;
+  width: 100%;
+  height: 36px;
+  outline: none;
+}
+
+input::-moz-placeholder {
+  padding-left: 0.5rem;
+  color: gray;
+}
+
+input::placeholder {
+  padding-left: 0.5rem;
+  color: gray;
+}
+
+input:focus {
+  padding-left: 0.5rem;
+}/*# sourceMappingURL=form.css.map */
